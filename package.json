@@ -1,5 +1,5 @@
 {
-  "name": "Self-introduction-React",
+  "name": "self-introduction-react",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/node": "^7.8.7",
-    "babel-cli": "^6.26.0",
     "eslint": "^7.0.0",
     "eslint-plugin-react": "^7.20.0",
     "webpack": "^4.43.0",

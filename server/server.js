@@ -17,5 +17,5 @@ app.get('/', (req, res) => {
 
 //3000番ポートを使ってサーバーを立ち上げ
 app.listen(3000, ()=>{
-  console.log('app listening on 3000');
+  // console.log('app listening on 3000');
 });
