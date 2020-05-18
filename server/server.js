@@ -1,7 +1,13 @@
 import express from 'express';
 import fs from 'fs';
+import webpack from 'webpack';
+import webpackConfig from '../webpack.config.dev.babel';
+import webpackMiddleware from 'webpack-dev-middleware';
 
 const app = express();
+
+const compiler = webpack(webpackConfig);
+app.use(webpackMiddleware(compiler));
 
 //GETリクエストでルートにアクセスが会った時の動作
 app.get('/', (req, res) => {
