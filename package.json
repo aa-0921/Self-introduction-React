@@ -9,6 +9,7 @@
   "author": "akuto aoyama <aaaa.akuto@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/node": "^7.8.7",
     "babel-cli": "^6.26.0",
     "eslint": "^7.0.0",
     "eslint-plugin-react": "^7.20.0",
